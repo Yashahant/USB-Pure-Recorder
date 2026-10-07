@@ -29,6 +29,12 @@ This is a direct download. Google Play installation and automatic updating are n
 
 These are concrete design strengths. They are not evidence that this beta beats every Play Store recorder or every manufacturer audio path. Honest bit-depth reporting is useful; 16-bit audio is not automatically bad audio, and a 24-bit USB format does not prove 24 bits of effective microphone resolution.
 
+## Free USB Audio Recorder PRO alternative for Android
+
+USB Pure Recorder is a free, focused alternative for people who need direct USB PCM-to-WAV recording from supported UAC1 microphones, receivers and ADC adapters. It shows the selected USB input format and preserves its incoming PCM without app DSP or lossy encoding.
+
+This experimental release supports the formats listed below; it does not claim the same features, device coverage or proven reliability as USB Audio Recorder PRO. Test your exact phone and USB device. This project is independent and is not affiliated with or endorsed by USB Audio Recorder PRO or its developer.
+
 ## Supported USB recording formats
 
 | Property | This UAC1 experimental app |
@@ -86,6 +92,11 @@ The APK dynamically uses unmodified **libusb 1.0.30**, licensed LGPL-2.1-or-late
 DJI, BOYA, FIFINE, Samsung and other product names identify hardware only. This project is independent and is not an official manufacturer app or endorsement.
 
 ## Common questions
+
+**Can I use this instead of USB Audio Recorder PRO?**
+For a supported UAC1 input, you can try this free app for direct PCM-to-WAV recording.
+Check the format limits and testing guide first; compatibility with one recorder
+does not establish compatibility with this experimental app.
 
 **Can I record a USB microphone on Android without changing its PCM format?**
 For the supported UAC1 layouts in this app, capture preserves the selected input's
